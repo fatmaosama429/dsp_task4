@@ -1,0 +1,119 @@
+2021-05-27 23:48:07,512 file similarity.py attached succesfully
+2021-05-27 23:48:07,513 uiname is MainWindow
+2021-05-27 23:48:07,514 toplevel widget is QMainWindow
+2021-05-27 23:48:07,514 setting property geometry
+2021-05-27 23:48:07,514 setting property windowTitle
+2021-05-27 23:48:07,514 push QMainWindow MainWindow
+2021-05-27 23:48:07,514 push QWidget centralwidget
+2021-05-27 23:48:07,514 setting property geometry
+2021-05-27 23:48:07,515 setting property text
+2021-05-27 23:48:07,515 setting property icon
+2021-05-27 23:48:07,515 setting property iconSize
+2021-05-27 23:48:07,515 push QPushButton SONG1
+2021-05-27 23:48:07,515 pop widget QPushButton SONG1
+2021-05-27 23:48:07,515 new topwidget self.centralwidget
+2021-05-27 23:48:07,515 setting property geometry
+2021-05-27 23:48:07,516 setting property text
+2021-05-27 23:48:07,516 setting property icon
+2021-05-27 23:48:07,516 setting property iconSize
+2021-05-27 23:48:07,516 push QPushButton SONG2
+2021-05-27 23:48:07,518 pop widget QPushButton SONG2
+2021-05-27 23:48:07,518 new topwidget self.centralwidget
+2021-05-27 23:48:07,518 setting property geometry
+2021-05-27 23:48:07,518 setting property styleSheet
+2021-05-27 23:48:07,518 setting property maximum
+2021-05-27 23:48:07,518 setting property orientation
+2021-05-27 23:48:07,519 push QSlider MIX_RATIO
+2021-05-27 23:48:07,519 pop widget QSlider MIX_RATIO
+2021-05-27 23:48:07,519 new topwidget self.centralwidget
+2021-05-27 23:48:07,519 setting property geometry
+2021-05-27 23:48:07,519 setting property text
+2021-05-27 23:48:07,520 push QLabel TABLE
+2021-05-27 23:48:07,520 pop widget QLabel TABLE
+2021-05-27 23:48:07,520 new topwidget self.centralwidget
+2021-05-27 23:48:07,520 setting property geometry
+2021-05-27 23:48:07,520 setting property styleSheet
+2021-05-27 23:48:07,520 setting property text
+2021-05-27 23:48:07,521 push QLabel RATIO
+2021-05-27 23:48:07,521 pop widget QLabel RATIO
+2021-05-27 23:48:07,521 new topwidget self.centralwidget
+2021-05-27 23:48:07,521 pop widget QWidget centralwidget
+2021-05-27 23:48:07,521 new topwidget MainWindow
+2021-05-27 23:48:07,521 setting property geometry
+2021-05-27 23:48:07,521 push QMenuBar menubar
+2021-05-27 23:48:07,522 setting property title
+2021-05-27 23:48:07,522 push QMenu menuFile
+2021-05-27 23:48:07,522 pop widget QMenu menuFile
+2021-05-27 23:48:07,522 new topwidget self.menubar
+2021-05-27 23:48:07,522 setting property title
+2021-05-27 23:48:07,522 push QMenu menubrowse
+2021-05-27 23:48:07,523 pop widget QMenu menubrowse
+2021-05-27 23:48:07,523 new topwidget self.menubar
+2021-05-27 23:48:07,523 pop widget QMenuBar menubar
+2021-05-27 23:48:07,523 new topwidget MainWindow
+2021-05-27 23:48:07,523 push QStatusBar statusbar
+2021-05-27 23:48:07,523 pop widget QStatusBar statusbar
+2021-05-27 23:48:07,523 new topwidget MainWindow
+2021-05-27 23:48:07,524 setting property text
+2021-05-27 23:48:07,524 setting property text
+2021-05-27 23:48:07,524 pop widget QMainWindow MainWindow
+2021-05-27 23:48:07,524 new topwidget None
+2021-05-27 23:48:07,524 add action actionNew_window to menuFile
+2021-05-27 23:48:07,524 add action actionLoad_song to menubrowse
+2021-05-27 23:48:07,524 add action menuFile to menubar
+2021-05-27 23:48:07,525 add action menubrowse to menubar
+2021-05-27 23:48:07,723 init
+2021-05-27 23:48:07,723 songs data base has been saved and it has 43 songs in it
+2021-05-27 23:48:26,004 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/fatma/dsp_task4/data_base/group16_song4_full.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-27 23:48:26,916 the song in uploaded with data
+2021-05-27 23:48:26,917 [    0     0     0 ...   966 -1428   931]
+2021-05-27 23:48:27,960 the song hashes=
+2021-05-27 23:48:27,960 ['a922c920adabcd01acd9ccd1a4dbedd0a9b2a972b19a5a76b4d252f6d0d65276', '88a084c08680c489e988e901e920e924cd25d826db76bb3ebb77377736ff76df', 'adabadabadabadfbb5fbb47bb672f814f8147814589448945ab4529452145214', '80087ff77ff7800880087ff77ff7800880087ff77ff780087ff77ff780088008']
+2021-05-27 23:48:27,961 get similarity index
+2021-05-27 23:48:27,961 similarity_indexes function is called
+2021-05-27 23:48:27,963 song of index 0 is compared
+2021-05-27 23:48:27,965 song of index 1 is compared
+2021-05-27 23:48:27,967 song of index 2 is compared
+2021-05-27 23:48:27,969 song of index 3 is compared
+2021-05-27 23:48:27,971 song of index 4 is compared
+2021-05-27 23:48:27,973 song of index 5 is compared
+2021-05-27 23:48:27,975 song of index 6 is compared
+2021-05-27 23:48:27,977 song of index 7 is compared
+2021-05-27 23:48:27,978 song of index 8 is compared
+2021-05-27 23:48:27,980 song of index 9 is compared
+2021-05-27 23:48:27,982 song of index 10 is compared
+2021-05-27 23:48:27,984 14 is bad
+2021-05-27 23:48:27,984 song of index 11 is compared
+2021-05-27 23:48:27,985 song of index 12 is compared
+2021-05-27 23:48:27,987 song of index 13 is compared
+2021-05-27 23:48:27,989 song of index 14 is compared
+2021-05-27 23:48:27,991 song of index 15 is compared
+2021-05-27 23:48:27,993 song of index 16 is compared
+2021-05-27 23:48:27,994 song of index 17 is compared
+2021-05-27 23:48:27,996 21 is bad
+2021-05-27 23:48:27,996 song of index 18 is compared
+2021-05-27 23:48:27,998 song of index 19 is compared
+2021-05-27 23:48:28,000 song of index 20 is compared
+2021-05-27 23:48:28,001 song of index 21 is compared
+2021-05-27 23:48:28,003 song of index 22 is compared
+2021-05-27 23:48:28,005 song of index 23 is compared
+2021-05-27 23:48:28,006 song of index 24 is compared
+2021-05-27 23:48:28,008 song of index 25 is compared
+2021-05-27 23:48:28,010 song of index 26 is compared
+2021-05-27 23:48:28,011 song of index 27 is compared
+2021-05-27 23:48:28,013 song of index 28 is compared
+2021-05-27 23:48:28,015 song of index 29 is compared
+2021-05-27 23:48:28,017 song of index 30 is compared
+2021-05-27 23:48:28,019 song of index 31 is compared
+2021-05-27 23:48:28,021 song of index 32 is compared
+2021-05-27 23:48:28,022 song of index 33 is compared
+2021-05-27 23:48:28,024 song of index 34 is compared
+2021-05-27 23:48:28,025 song of index 35 is compared
+2021-05-27 23:48:28,027 song of index 36 is compared
+2021-05-27 23:48:28,029 song of index 37 is compared
+2021-05-27 23:48:28,031 song of index 38 is compared
+2021-05-27 23:48:28,032 song of index 39 is compared
+2021-05-27 23:48:28,034 song of index 40 is compared
+2021-05-27 23:48:28,035 song of index 41 is compared
+2021-05-27 23:48:28,037 song of index 42 is compared
+2021-05-27 23:48:28,037 similarity function done successfully

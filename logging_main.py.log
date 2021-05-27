@@ -1,0 +1,71 @@
+2021-05-27 23:26:26,539 uiname is MainWindow
+2021-05-27 23:26:26,541 toplevel widget is QMainWindow
+2021-05-27 23:26:26,542 setting property geometry
+2021-05-27 23:26:26,544 setting property windowTitle
+2021-05-27 23:26:26,545 push QMainWindow MainWindow
+2021-05-27 23:26:26,546 push QWidget centralwidget
+2021-05-27 23:26:26,547 setting property geometry
+2021-05-27 23:26:26,547 setting property text
+2021-05-27 23:26:26,547 setting property icon
+2021-05-27 23:26:26,547 setting property iconSize
+2021-05-27 23:26:26,548 push QPushButton SONG1
+2021-05-27 23:26:26,548 pop widget QPushButton SONG1
+2021-05-27 23:26:26,548 new topwidget self.centralwidget
+2021-05-27 23:26:26,549 setting property geometry
+2021-05-27 23:26:26,549 setting property text
+2021-05-27 23:26:26,550 setting property icon
+2021-05-27 23:26:26,550 setting property iconSize
+2021-05-27 23:26:26,550 push QPushButton SONG2
+2021-05-27 23:26:26,550 pop widget QPushButton SONG2
+2021-05-27 23:26:26,550 new topwidget self.centralwidget
+2021-05-27 23:26:26,550 setting property geometry
+2021-05-27 23:26:26,551 setting property styleSheet
+2021-05-27 23:26:26,551 setting property maximum
+2021-05-27 23:26:26,551 setting property orientation
+2021-05-27 23:26:26,551 push QSlider MIX_RATIO
+2021-05-27 23:26:26,551 pop widget QSlider MIX_RATIO
+2021-05-27 23:26:26,551 new topwidget self.centralwidget
+2021-05-27 23:26:26,551 setting property geometry
+2021-05-27 23:26:26,552 setting property text
+2021-05-27 23:26:26,552 push QLabel TABLE
+2021-05-27 23:26:26,552 pop widget QLabel TABLE
+2021-05-27 23:26:26,552 new topwidget self.centralwidget
+2021-05-27 23:26:26,552 setting property geometry
+2021-05-27 23:26:26,552 setting property styleSheet
+2021-05-27 23:26:26,552 setting property text
+2021-05-27 23:26:26,553 push QLabel RATIO
+2021-05-27 23:26:26,553 pop widget QLabel RATIO
+2021-05-27 23:26:26,553 new topwidget self.centralwidget
+2021-05-27 23:26:26,553 pop widget QWidget centralwidget
+2021-05-27 23:26:26,553 new topwidget MainWindow
+2021-05-27 23:26:26,553 setting property geometry
+2021-05-27 23:26:26,553 push QMenuBar menubar
+2021-05-27 23:26:26,553 setting property title
+2021-05-27 23:26:26,554 push QMenu menuFile
+2021-05-27 23:26:26,554 pop widget QMenu menuFile
+2021-05-27 23:26:26,554 new topwidget self.menubar
+2021-05-27 23:26:26,554 setting property title
+2021-05-27 23:26:26,554 push QMenu menubrowse
+2021-05-27 23:26:26,554 pop widget QMenu menubrowse
+2021-05-27 23:26:26,554 new topwidget self.menubar
+2021-05-27 23:26:26,554 pop widget QMenuBar menubar
+2021-05-27 23:26:26,555 new topwidget MainWindow
+2021-05-27 23:26:26,555 push QStatusBar statusbar
+2021-05-27 23:26:26,555 pop widget QStatusBar statusbar
+2021-05-27 23:26:26,555 new topwidget MainWindow
+2021-05-27 23:26:26,555 setting property text
+2021-05-27 23:26:26,555 setting property text
+2021-05-27 23:26:26,556 pop widget QMainWindow MainWindow
+2021-05-27 23:26:26,556 new topwidget None
+2021-05-27 23:26:26,556 add action actionNew_window to menuFile
+2021-05-27 23:26:26,556 add action actionLoad_song to menubrowse
+2021-05-27 23:26:26,556 add action menuFile to menubar
+2021-05-27 23:26:26,556 add action menubrowse to menubar
+2021-05-27 23:26:26,963 init
+2021-05-27 23:26:26,963 songs data base has been saved and it has 43 songs in it
+2021-05-27 23:26:31,513 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/fatma/dsp_task4/data_base/Group22_Song4-music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-27 23:26:31,727 the song in uploaded with data
+2021-05-27 23:26:31,727 [    0     0     0 ...  1711 -2337  2387]
+2021-05-27 23:26:32,661 the song hashes=
+2021-05-27 23:26:32,661 ['f85c2acdf87c2a4df87c284da87c284d8b6c686f8b6c686e83ec686687e86d62', 'a81ca84ccb4ceb6cee6ccb58907eb6fdb4b5b4b1b4b113930793478347834783', 'f87cf87cf87ce86caa6c8a6c8a6c824dd05d105f551705975597178357835783', 'cbf4cbf4340b340bcbf4cbf4340b340bcbf4cbf4340b340b340bcbf4cbf4340b']
+2021-05-27 23:26:32,661 get similarity index
