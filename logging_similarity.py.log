@@ -1,403 +1,251 @@
-2021-05-28 20:40:10,024 file similarity.py attached succesfully
-2021-05-28 20:40:10,026 uiname is MainWindow
-2021-05-28 20:40:10,027 toplevel widget is QMainWindow
-2021-05-28 20:40:10,028 setting property geometry
-2021-05-28 20:40:10,028 setting property font
-2021-05-28 20:40:10,029 setting property cursor
-2021-05-28 20:40:10,029 setting property windowTitle
-2021-05-28 20:40:10,029 setting property styleSheet
-2021-05-28 20:40:10,030 push QMainWindow MainWindow
-2021-05-28 20:40:10,031 push QWidget centralwidget
-2021-05-28 20:40:10,031 setting property geometry
-2021-05-28 20:40:10,031 setting property text
-2021-05-28 20:40:10,032 setting property icon
-2021-05-28 20:40:10,032 setting property iconSize
-2021-05-28 20:40:10,033 push QPushButton SONG1
-2021-05-28 20:40:10,033 pop widget QPushButton SONG1
-2021-05-28 20:40:10,033 new topwidget self.centralwidget
-2021-05-28 20:40:10,033 setting property geometry
-2021-05-28 20:40:10,033 setting property text
-2021-05-28 20:40:10,033 setting property icon
-2021-05-28 20:40:10,034 setting property iconSize
-2021-05-28 20:40:10,034 push QPushButton SONG2
-2021-05-28 20:40:10,034 pop widget QPushButton SONG2
-2021-05-28 20:40:10,034 new topwidget self.centralwidget
-2021-05-28 20:40:10,034 setting property geometry
-2021-05-28 20:40:10,035 setting property styleSheet
-2021-05-28 20:40:10,035 setting property maximum
-2021-05-28 20:40:10,035 setting property pageStep
-2021-05-28 20:40:10,035 setting property value
-2021-05-28 20:40:10,035 setting property orientation
-2021-05-28 20:40:10,035 setting property tickInterval
-2021-05-28 20:40:10,035 push QSlider MIX_RATIO
-2021-05-28 20:40:10,036 pop widget QSlider MIX_RATIO
-2021-05-28 20:40:10,036 new topwidget self.centralwidget
-2021-05-28 20:40:10,036 setting property geometry
-2021-05-28 20:40:10,036 setting property styleSheet
-2021-05-28 20:40:10,036 setting property text
-2021-05-28 20:40:10,036 push QLabel RATIO
-2021-05-28 20:40:10,036 pop widget QLabel RATIO
-2021-05-28 20:40:10,037 new topwidget self.centralwidget
-2021-05-28 20:40:10,037 setting property enabled
-2021-05-28 20:40:10,037 setting property geometry
-2021-05-28 20:40:10,037 setting property font
-2021-05-28 20:40:10,037 setting property styleSheet
-2021-05-28 20:40:10,037 setting property lineWidth
-2021-05-28 20:40:10,038 setting property sizeAdjustPolicy
-2021-05-28 20:40:10,038 setting property editTriggers
-2021-05-28 20:40:10,038 setting property alternatingRowColors
-2021-05-28 20:40:10,038 setting property sortingEnabled
-2021-05-28 20:40:10,038 setting property wordWrap
-2021-05-28 20:40:10,038 setting property cornerButtonEnabled
-2021-05-28 20:40:10,039 setting property columnCount
-2021-05-28 20:40:10,039 push QTableWidget resultsTable
-2021-05-28 20:40:10,039 pop widget QTableWidget resultsTable
-2021-05-28 20:40:10,039 new topwidget self.centralwidget
-2021-05-28 20:40:10,041 pop widget QWidget centralwidget
-2021-05-28 20:40:10,041 new topwidget MainWindow
-2021-05-28 20:40:10,042 setting property geometry
-2021-05-28 20:40:10,042 push QMenuBar menubar
-2021-05-28 20:40:10,042 setting property title
-2021-05-28 20:40:10,042 push QMenu menuFile
-2021-05-28 20:40:10,042 pop widget QMenu menuFile
-2021-05-28 20:40:10,043 new topwidget self.menubar
-2021-05-28 20:40:10,043 setting property title
-2021-05-28 20:40:10,043 push QMenu menubrowse
-2021-05-28 20:40:10,043 pop widget QMenu menubrowse
-2021-05-28 20:40:10,043 new topwidget self.menubar
-2021-05-28 20:40:10,043 pop widget QMenuBar menubar
-2021-05-28 20:40:10,043 new topwidget MainWindow
-2021-05-28 20:40:10,044 push QStatusBar statusbar
-2021-05-28 20:40:10,044 pop widget QStatusBar statusbar
-2021-05-28 20:40:10,044 new topwidget MainWindow
-2021-05-28 20:40:10,044 setting property text
-2021-05-28 20:40:10,045 setting property text
-2021-05-28 20:40:10,045 pop widget QMainWindow MainWindow
-2021-05-28 20:40:10,045 new topwidget None
-2021-05-28 20:40:10,045 add action actionNew_window to menuFile
-2021-05-28 20:40:10,045 add action actionLoad_song to menubrowse
-2021-05-28 20:40:10,045 add action menuFile to menubar
-2021-05-28 20:40:10,045 add action menubrowse to menubar
-2021-05-28 20:40:10,453 init
-2021-05-28 20:40:10,453 songs data base has been saved and it has 43 songs in it
-2021-05-28 20:40:11,976 adding song of id 0to the compare function
-2021-05-28 20:40:14,531 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/fatma/dsp_task4/data_base/Group22_Song4-music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
-2021-05-28 20:40:14,943 the song in uploaded with data
-2021-05-28 20:40:14,944 [    0     0     0 ...  1711 -2337  2387]
-2021-05-28 20:40:15,362 adding song of id 1to the compare function
-2021-05-28 20:40:17,752 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/fatma/dsp_task4/data_base/group16_song1_music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
-2021-05-28 20:40:18,809 the song in uploaded with data
-2021-05-28 20:40:18,810 [    0     0     0 ... 12810 18001 13058]
-2021-05-28 20:40:18,811 2 songs were added to the mixer
-2021-05-28 20:40:18,811 mixing 2 songs' data
-2021-05-28 20:40:18,853 extracting the similarity indexes
-2021-05-28 20:40:20,814 the song hashes=
-2021-05-28 20:40:20,814 ['a09624b6a09e24b690d824f693c824b693c824f691d876f791d87f6f91f85f67', '80f883c8938e938ce696e624ee97ee36e470a473a471ec69d861da69d969d869', 'a0baa0baa0faa0faa0faa0baa0faa0faa0f9e86dc8ed4b4549cd5f455f455f05', '800080007f7f7f7f800080007f7f7f7f800080007f7f7f7f7f7f800080007f7f']
-2021-05-28 20:40:20,814 get similarity index
-2021-05-28 20:40:20,814 similarity_indexes function is called
-2021-05-28 20:40:20,817 song of index 0 is compared
-2021-05-28 20:40:20,818 song of index 1 is compared
-2021-05-28 20:40:20,821 song of index 2 is compared
-2021-05-28 20:40:20,823 song of index 3 is compared
-2021-05-28 20:40:20,825 song of index 4 is compared
-2021-05-28 20:40:20,827 song of index 5 is compared
-2021-05-28 20:40:20,829 song of index 6 is compared
-2021-05-28 20:40:20,830 song of index 7 is compared
-2021-05-28 20:40:20,833 song of index 8 is compared
-2021-05-28 20:40:20,835 song of index 9 is compared
-2021-05-28 20:40:20,837 song of index 10 is compared
-2021-05-28 20:40:20,839 14 is bad
-2021-05-28 20:40:20,839 song of index 11 is compared
-2021-05-28 20:40:20,841 song of index 12 is compared
-2021-05-28 20:40:20,843 song of index 13 is compared
-2021-05-28 20:40:20,846 song of index 14 is compared
-2021-05-28 20:40:20,847 song of index 15 is compared
-2021-05-28 20:40:20,849 song of index 16 is compared
-2021-05-28 20:40:20,852 song of index 17 is compared
-2021-05-28 20:40:20,853 21 is bad
-2021-05-28 20:40:20,853 song of index 18 is compared
-2021-05-28 20:40:20,855 song of index 19 is compared
-2021-05-28 20:40:20,858 song of index 20 is compared
-2021-05-28 20:40:20,860 song of index 21 is compared
-2021-05-28 20:40:20,864 song of index 22 is compared
-2021-05-28 20:40:20,866 song of index 23 is compared
-2021-05-28 20:40:20,869 song of index 24 is compared
-2021-05-28 20:40:20,871 song of index 25 is compared
-2021-05-28 20:40:20,872 song of index 26 is compared
-2021-05-28 20:40:20,875 song of index 27 is compared
-2021-05-28 20:40:20,877 song of index 28 is compared
-2021-05-28 20:40:20,879 song of index 29 is compared
-2021-05-28 20:40:20,882 song of index 30 is compared
-2021-05-28 20:40:20,884 song of index 31 is compared
-2021-05-28 20:40:20,886 song of index 32 is compared
-2021-05-28 20:40:20,889 song of index 33 is compared
-2021-05-28 20:40:20,891 song of index 34 is compared
-2021-05-28 20:40:20,893 song of index 35 is compared
-2021-05-28 20:40:20,895 song of index 36 is compared
-2021-05-28 20:40:20,898 song of index 37 is compared
-2021-05-28 20:40:20,900 song of index 38 is compared
-2021-05-28 20:40:20,902 song of index 39 is compared
-2021-05-28 20:40:20,905 song of index 40 is compared
-2021-05-28 20:40:20,907 song of index 41 is compared
-2021-05-28 20:40:20,909 song of index 42 is compared
-2021-05-28 20:40:20,909 similarity function done successfully
-2021-05-28 20:40:51,883 mixing 2 songs' data
-2021-05-28 20:40:51,916 extracting the similarity indexes
-2021-05-28 20:40:53,078 the song hashes=
-2021-05-28 20:40:53,078 ['f85c2acdf87c2a4df87c284da87c284d8b6c686f8b6c686e83ec686687e86d62', 'a81ca84ccb4ceb6cee6ccb58907eb6fdb4b5b4b1b4b113930793478347834783', 'f87cf87cf87ce86caa6c8a6c8a6c824dd05d105f551705975597178357835783', 'cbf4cbf4340b340bcbf4cbf4340b340bcbf4cbf4340b340b340bcbf4cbf4340b']
-2021-05-28 20:40:53,078 get similarity index
-2021-05-28 20:40:53,078 similarity_indexes function is called
-2021-05-28 20:40:53,080 song of index 0 is compared
-2021-05-28 20:40:53,082 song of index 1 is compared
-2021-05-28 20:40:53,084 song of index 2 is compared
-2021-05-28 20:40:53,086 song of index 3 is compared
-2021-05-28 20:40:53,088 song of index 4 is compared
-2021-05-28 20:40:53,090 song of index 5 is compared
-2021-05-28 20:40:53,091 song of index 6 is compared
-2021-05-28 20:40:53,093 song of index 7 is compared
-2021-05-28 20:40:53,094 song of index 8 is compared
-2021-05-28 20:40:53,096 song of index 9 is compared
-2021-05-28 20:40:53,098 song of index 10 is compared
-2021-05-28 20:40:53,099 14 is bad
-2021-05-28 20:40:53,099 song of index 11 is compared
-2021-05-28 20:40:53,101 song of index 12 is compared
-2021-05-28 20:40:53,103 song of index 13 is compared
-2021-05-28 20:40:53,105 song of index 14 is compared
-2021-05-28 20:40:53,106 song of index 15 is compared
-2021-05-28 20:40:53,108 song of index 16 is compared
-2021-05-28 20:40:53,110 song of index 17 is compared
-2021-05-28 20:40:53,111 21 is bad
-2021-05-28 20:40:53,111 song of index 18 is compared
-2021-05-28 20:40:53,113 song of index 19 is compared
-2021-05-28 20:40:53,115 song of index 20 is compared
-2021-05-28 20:40:53,116 song of index 21 is compared
-2021-05-28 20:40:53,118 song of index 22 is compared
-2021-05-28 20:40:53,120 song of index 23 is compared
-2021-05-28 20:40:53,122 song of index 24 is compared
-2021-05-28 20:40:53,123 song of index 25 is compared
-2021-05-28 20:40:53,125 song of index 26 is compared
-2021-05-28 20:40:53,127 song of index 27 is compared
-2021-05-28 20:40:53,128 song of index 28 is compared
-2021-05-28 20:40:53,130 song of index 29 is compared
-2021-05-28 20:40:53,132 song of index 30 is compared
-2021-05-28 20:40:53,134 song of index 31 is compared
-2021-05-28 20:40:53,136 song of index 32 is compared
-2021-05-28 20:40:53,138 song of index 33 is compared
-2021-05-28 20:40:53,140 song of index 34 is compared
-2021-05-28 20:40:53,141 song of index 35 is compared
-2021-05-28 20:40:53,142 song of index 36 is compared
-2021-05-28 20:40:53,143 song of index 37 is compared
-2021-05-28 20:40:53,145 song of index 38 is compared
-2021-05-28 20:40:53,146 song of index 39 is compared
-2021-05-28 20:40:53,148 song of index 40 is compared
-2021-05-28 20:40:53,150 song of index 41 is compared
-2021-05-28 20:40:53,152 song of index 42 is compared
-2021-05-28 20:40:53,152 similarity function done successfully
-2021-05-28 20:40:59,047 mixing 2 songs' data
-2021-05-28 20:40:59,076 extracting the similarity indexes
-2021-05-28 20:41:00,213 the song hashes=
-2021-05-28 20:41:00,213 ['b09620aeb81e24eef85c24e4f85c24e4d86e24f4987a64f681ea7d7e81e17f74', '90088848db4eda4cf87cfa7ce23cae94b4b6b4b3b4b38583cf83cbc34b4947c3', 'b0fcb0fcb0fca0fca0fca0fca0fca0fca0fda0edc0ed458545855f035f035f03', '87fc87fc7803780387fc87fc7803780387fc87fc78037803780387fc87fc7803']
-2021-05-28 20:41:00,214 get similarity index
-2021-05-28 20:41:00,214 similarity_indexes function is called
-2021-05-28 20:41:00,215 song of index 0 is compared
-2021-05-28 20:41:00,218 song of index 1 is compared
-2021-05-28 20:41:00,220 song of index 2 is compared
-2021-05-28 20:41:00,223 song of index 3 is compared
-2021-05-28 20:41:00,224 song of index 4 is compared
-2021-05-28 20:41:00,225 song of index 5 is compared
-2021-05-28 20:41:00,226 song of index 6 is compared
-2021-05-28 20:41:00,228 song of index 7 is compared
-2021-05-28 20:41:00,230 song of index 8 is compared
-2021-05-28 20:41:00,231 song of index 9 is compared
-2021-05-28 20:41:00,233 song of index 10 is compared
-2021-05-28 20:41:00,234 14 is bad
-2021-05-28 20:41:00,234 song of index 11 is compared
-2021-05-28 20:41:00,236 song of index 12 is compared
-2021-05-28 20:41:00,237 song of index 13 is compared
-2021-05-28 20:41:00,238 song of index 14 is compared
-2021-05-28 20:41:00,239 song of index 15 is compared
-2021-05-28 20:41:00,240 song of index 16 is compared
-2021-05-28 20:41:00,241 song of index 17 is compared
-2021-05-28 20:41:00,242 21 is bad
-2021-05-28 20:41:00,242 song of index 18 is compared
-2021-05-28 20:41:00,243 song of index 19 is compared
-2021-05-28 20:41:00,245 song of index 20 is compared
-2021-05-28 20:41:00,247 song of index 21 is compared
-2021-05-28 20:41:00,248 song of index 22 is compared
-2021-05-28 20:41:00,249 song of index 23 is compared
-2021-05-28 20:41:00,250 song of index 24 is compared
-2021-05-28 20:41:00,252 song of index 25 is compared
-2021-05-28 20:41:00,253 song of index 26 is compared
-2021-05-28 20:41:00,254 song of index 27 is compared
-2021-05-28 20:41:00,255 song of index 28 is compared
-2021-05-28 20:41:00,256 song of index 29 is compared
-2021-05-28 20:41:00,258 song of index 30 is compared
-2021-05-28 20:41:00,260 song of index 31 is compared
-2021-05-28 20:41:00,262 song of index 32 is compared
-2021-05-28 20:41:00,264 song of index 33 is compared
-2021-05-28 20:41:00,266 song of index 34 is compared
-2021-05-28 20:41:00,267 song of index 35 is compared
-2021-05-28 20:41:00,269 song of index 36 is compared
-2021-05-28 20:41:00,271 song of index 37 is compared
-2021-05-28 20:41:00,272 song of index 38 is compared
-2021-05-28 20:41:00,273 song of index 39 is compared
-2021-05-28 20:41:00,275 song of index 40 is compared
-2021-05-28 20:41:00,276 song of index 41 is compared
-2021-05-28 20:41:00,277 song of index 42 is compared
-2021-05-28 20:41:00,277 similarity function done successfully
-2021-05-28 20:41:02,174 mixing 2 songs' data
-2021-05-28 20:41:02,203 extracting the similarity indexes
-2021-05-28 20:41:03,388 the song hashes=
-2021-05-28 20:41:03,389 ['b09624aeb09e24eef85c24e6d84c24f6d84824f698d864f691f87d7e81e87f74', '90088848db4ed95cf07cfa7cea3cae94b496b4b3a5a3a583cfc1cb63cb49c741', 'a0fea0fea0fea0fea0faa0faa0fea0fea0fda06dc0ed498549855f055f015f01', '8000800000000000800080000000000080008000000000000000800080000000']
-2021-05-28 20:41:03,389 get similarity index
-2021-05-28 20:41:03,389 similarity_indexes function is called
-2021-05-28 20:41:03,391 song of index 0 is compared
-2021-05-28 20:41:03,393 song of index 1 is compared
-2021-05-28 20:41:03,394 song of index 2 is compared
-2021-05-28 20:41:03,396 song of index 3 is compared
-2021-05-28 20:41:03,398 song of index 4 is compared
-2021-05-28 20:41:03,400 song of index 5 is compared
-2021-05-28 20:41:03,402 song of index 6 is compared
-2021-05-28 20:41:03,404 song of index 7 is compared
-2021-05-28 20:41:03,406 song of index 8 is compared
-2021-05-28 20:41:03,408 song of index 9 is compared
-2021-05-28 20:41:03,409 song of index 10 is compared
-2021-05-28 20:41:03,410 14 is bad
-2021-05-28 20:41:03,411 song of index 11 is compared
-2021-05-28 20:41:03,412 song of index 12 is compared
-2021-05-28 20:41:03,413 song of index 13 is compared
-2021-05-28 20:41:03,415 song of index 14 is compared
-2021-05-28 20:41:03,417 song of index 15 is compared
-2021-05-28 20:41:03,419 song of index 16 is compared
-2021-05-28 20:41:03,421 song of index 17 is compared
-2021-05-28 20:41:03,422 21 is bad
-2021-05-28 20:41:03,422 song of index 18 is compared
-2021-05-28 20:41:03,423 song of index 19 is compared
-2021-05-28 20:41:03,425 song of index 20 is compared
-2021-05-28 20:41:03,427 song of index 21 is compared
-2021-05-28 20:41:03,429 song of index 22 is compared
-2021-05-28 20:41:03,431 song of index 23 is compared
-2021-05-28 20:41:03,433 song of index 24 is compared
-2021-05-28 20:41:03,434 song of index 25 is compared
-2021-05-28 20:41:03,436 song of index 26 is compared
-2021-05-28 20:41:03,438 song of index 27 is compared
-2021-05-28 20:41:03,440 song of index 28 is compared
-2021-05-28 20:41:03,442 song of index 29 is compared
-2021-05-28 20:41:03,443 song of index 30 is compared
-2021-05-28 20:41:03,445 song of index 31 is compared
-2021-05-28 20:41:03,447 song of index 32 is compared
-2021-05-28 20:41:03,449 song of index 33 is compared
-2021-05-28 20:41:03,450 song of index 34 is compared
-2021-05-28 20:41:03,452 song of index 35 is compared
-2021-05-28 20:41:03,454 song of index 36 is compared
-2021-05-28 20:41:03,456 song of index 37 is compared
-2021-05-28 20:41:03,457 song of index 38 is compared
-2021-05-28 20:41:03,459 song of index 39 is compared
-2021-05-28 20:41:03,461 song of index 40 is compared
-2021-05-28 20:41:03,463 song of index 41 is compared
-2021-05-28 20:41:03,466 song of index 42 is compared
-2021-05-28 20:41:03,466 similarity function done successfully
-2021-05-28 20:41:04,900 mixing 2 songs' data
-2021-05-28 20:41:04,928 extracting the similarity indexes
-2021-05-28 20:41:06,004 the song hashes=
-2021-05-28 20:41:06,004 ['f85c2aedf85c2aedf85c28ecf87c2c6cc86c246c896c6c6c81e86c7c81e16d76', '980cc84ccb4ccb4cca7cda5cb67cb6fcb4b4b4b2b4b385934793478347834f83', 'f87cf87cf87ce87ca87ca06ca07ca07cf07d907f541705875583178357035783', '8bf08bf0740f740f8bf08bf0740f740f8bf08bf0740f740f740f8bf08bf0740f']
-2021-05-28 20:41:06,004 get similarity index
-2021-05-28 20:41:06,004 similarity_indexes function is called
-2021-05-28 20:41:06,005 song of index 0 is compared
-2021-05-28 20:41:06,007 song of index 1 is compared
-2021-05-28 20:41:06,009 song of index 2 is compared
-2021-05-28 20:41:06,010 song of index 3 is compared
-2021-05-28 20:41:06,011 song of index 4 is compared
-2021-05-28 20:41:06,012 song of index 5 is compared
-2021-05-28 20:41:06,013 song of index 6 is compared
-2021-05-28 20:41:06,015 song of index 7 is compared
-2021-05-28 20:41:06,017 song of index 8 is compared
-2021-05-28 20:41:06,018 song of index 9 is compared
-2021-05-28 20:41:06,019 song of index 10 is compared
-2021-05-28 20:41:06,020 14 is bad
-2021-05-28 20:41:06,020 song of index 11 is compared
-2021-05-28 20:41:06,021 song of index 12 is compared
-2021-05-28 20:41:06,022 song of index 13 is compared
-2021-05-28 20:41:06,023 song of index 14 is compared
-2021-05-28 20:41:06,024 song of index 15 is compared
-2021-05-28 20:41:06,026 song of index 16 is compared
-2021-05-28 20:41:06,027 song of index 17 is compared
-2021-05-28 20:41:06,028 21 is bad
-2021-05-28 20:41:06,028 song of index 18 is compared
-2021-05-28 20:41:06,029 song of index 19 is compared
-2021-05-28 20:41:06,031 song of index 20 is compared
-2021-05-28 20:41:06,032 song of index 21 is compared
-2021-05-28 20:41:06,033 song of index 22 is compared
-2021-05-28 20:41:06,036 song of index 23 is compared
-2021-05-28 20:41:06,037 song of index 24 is compared
-2021-05-28 20:41:06,038 song of index 25 is compared
-2021-05-28 20:41:06,039 song of index 26 is compared
-2021-05-28 20:41:06,040 song of index 27 is compared
-2021-05-28 20:41:06,042 song of index 28 is compared
-2021-05-28 20:41:06,044 song of index 29 is compared
-2021-05-28 20:41:06,046 song of index 30 is compared
-2021-05-28 20:41:06,048 song of index 31 is compared
-2021-05-28 20:41:06,049 song of index 32 is compared
-2021-05-28 20:41:06,050 song of index 33 is compared
-2021-05-28 20:41:06,052 song of index 34 is compared
-2021-05-28 20:41:06,053 song of index 35 is compared
-2021-05-28 20:41:06,055 song of index 36 is compared
-2021-05-28 20:41:06,057 song of index 37 is compared
-2021-05-28 20:41:06,059 song of index 38 is compared
-2021-05-28 20:41:06,061 song of index 39 is compared
-2021-05-28 20:41:06,063 song of index 40 is compared
-2021-05-28 20:41:06,064 song of index 41 is compared
-2021-05-28 20:41:06,066 song of index 42 is compared
-2021-05-28 20:41:06,066 similarity function done successfully
-2021-05-28 20:41:07,584 mixing 2 songs' data
-2021-05-28 20:41:07,619 extracting the similarity indexes
-2021-05-28 20:41:08,825 the song hashes=
-2021-05-28 20:41:08,825 ['b09624aeb09e24beb0dc24f6d84824f6d84824f698d864f691f8757e81e87f77', '90088848db4ed9dcf07cfa7cea3cae94b496a4b3a583a583cbc1cb63db69d341', 'a0fea0fea0fea0faa0faa0faa0faa0fea0fda0edc0ed49cd494d4f015f015f01', '8000800000000000800080000000000080008000000000000000800080000000']
-2021-05-28 20:41:08,826 get similarity index
-2021-05-28 20:41:08,826 similarity_indexes function is called
-2021-05-28 20:41:08,828 song of index 0 is compared
-2021-05-28 20:41:08,830 song of index 1 is compared
-2021-05-28 20:41:08,832 song of index 2 is compared
-2021-05-28 20:41:08,834 song of index 3 is compared
-2021-05-28 20:41:08,836 song of index 4 is compared
-2021-05-28 20:41:08,838 song of index 5 is compared
-2021-05-28 20:41:08,840 song of index 6 is compared
-2021-05-28 20:41:08,842 song of index 7 is compared
-2021-05-28 20:41:08,843 song of index 8 is compared
-2021-05-28 20:41:08,845 song of index 9 is compared
-2021-05-28 20:41:08,846 song of index 10 is compared
-2021-05-28 20:41:08,848 14 is bad
-2021-05-28 20:41:08,848 song of index 11 is compared
-2021-05-28 20:41:08,850 song of index 12 is compared
-2021-05-28 20:41:08,852 song of index 13 is compared
-2021-05-28 20:41:08,853 song of index 14 is compared
-2021-05-28 20:41:08,855 song of index 15 is compared
-2021-05-28 20:41:08,857 song of index 16 is compared
-2021-05-28 20:41:08,859 song of index 17 is compared
-2021-05-28 20:41:08,861 21 is bad
-2021-05-28 20:41:08,861 song of index 18 is compared
-2021-05-28 20:41:08,863 song of index 19 is compared
-2021-05-28 20:41:08,864 song of index 20 is compared
-2021-05-28 20:41:08,866 song of index 21 is compared
-2021-05-28 20:41:08,868 song of index 22 is compared
-2021-05-28 20:41:08,870 song of index 23 is compared
-2021-05-28 20:41:08,871 song of index 24 is compared
-2021-05-28 20:41:08,872 song of index 25 is compared
-2021-05-28 20:41:08,874 song of index 26 is compared
-2021-05-28 20:41:08,876 song of index 27 is compared
-2021-05-28 20:41:08,878 song of index 28 is compared
-2021-05-28 20:41:08,879 song of index 29 is compared
-2021-05-28 20:41:08,880 song of index 30 is compared
-2021-05-28 20:41:08,881 song of index 31 is compared
-2021-05-28 20:41:08,883 song of index 32 is compared
-2021-05-28 20:41:08,885 song of index 33 is compared
-2021-05-28 20:41:08,887 song of index 34 is compared
-2021-05-28 20:41:08,890 song of index 35 is compared
-2021-05-28 20:41:08,891 song of index 36 is compared
-2021-05-28 20:41:08,893 song of index 37 is compared
-2021-05-28 20:41:08,894 song of index 38 is compared
-2021-05-28 20:41:08,895 song of index 39 is compared
-2021-05-28 20:41:08,896 song of index 40 is compared
-2021-05-28 20:41:08,897 song of index 41 is compared
-2021-05-28 20:41:08,899 song of index 42 is compared
-2021-05-28 20:41:08,899 similarity function done successfully
+2021-05-31 16:47:56,609 file similarity.py attached succesfully
+2021-05-31 16:47:56,611 uiname is MainWindow
+2021-05-31 16:47:56,611 toplevel widget is QMainWindow
+2021-05-31 16:47:56,613 setting property geometry
+2021-05-31 16:47:56,613 setting property font
+2021-05-31 16:47:56,614 setting property cursor
+2021-05-31 16:47:56,614 setting property windowTitle
+2021-05-31 16:47:56,614 setting property styleSheet
+2021-05-31 16:47:56,614 push QMainWindow MainWindow
+2021-05-31 16:47:56,615 push QWidget centralwidget
+2021-05-31 16:47:56,615 setting property geometry
+2021-05-31 16:47:56,615 setting property text
+2021-05-31 16:47:56,615 setting property icon
+2021-05-31 16:47:56,615 setting property iconSize
+2021-05-31 16:47:56,616 push QPushButton SONG1
+2021-05-31 16:47:56,616 pop widget QPushButton SONG1
+2021-05-31 16:47:56,616 new topwidget self.centralwidget
+2021-05-31 16:47:56,616 setting property geometry
+2021-05-31 16:47:56,616 setting property text
+2021-05-31 16:47:56,616 setting property icon
+2021-05-31 16:47:56,616 setting property iconSize
+2021-05-31 16:47:56,616 push QPushButton SONG2
+2021-05-31 16:47:56,616 pop widget QPushButton SONG2
+2021-05-31 16:47:56,617 new topwidget self.centralwidget
+2021-05-31 16:47:56,617 setting property geometry
+2021-05-31 16:47:56,617 setting property styleSheet
+2021-05-31 16:47:56,617 setting property maximum
+2021-05-31 16:47:56,617 setting property pageStep
+2021-05-31 16:47:56,617 setting property value
+2021-05-31 16:47:56,617 setting property orientation
+2021-05-31 16:47:56,618 setting property tickInterval
+2021-05-31 16:47:56,618 push QSlider MIX_RATIO
+2021-05-31 16:47:56,618 pop widget QSlider MIX_RATIO
+2021-05-31 16:47:56,618 new topwidget self.centralwidget
+2021-05-31 16:47:56,618 setting property geometry
+2021-05-31 16:47:56,619 setting property styleSheet
+2021-05-31 16:47:56,619 setting property text
+2021-05-31 16:47:56,619 push QLabel RATIO
+2021-05-31 16:47:56,619 pop widget QLabel RATIO
+2021-05-31 16:47:56,619 new topwidget self.centralwidget
+2021-05-31 16:47:56,619 setting property enabled
+2021-05-31 16:47:56,619 setting property geometry
+2021-05-31 16:47:56,620 setting property font
+2021-05-31 16:47:56,620 setting property styleSheet
+2021-05-31 16:47:56,620 setting property lineWidth
+2021-05-31 16:47:56,620 setting property sizeAdjustPolicy
+2021-05-31 16:47:56,620 setting property editTriggers
+2021-05-31 16:47:56,620 setting property alternatingRowColors
+2021-05-31 16:47:56,621 setting property sortingEnabled
+2021-05-31 16:47:56,621 setting property wordWrap
+2021-05-31 16:47:56,621 setting property cornerButtonEnabled
+2021-05-31 16:47:56,621 setting property columnCount
+2021-05-31 16:47:56,621 push QTableWidget resultsTable
+2021-05-31 16:47:56,621 pop widget QTableWidget resultsTable
+2021-05-31 16:47:56,621 new topwidget self.centralwidget
+2021-05-31 16:47:56,621 pop widget QWidget centralwidget
+2021-05-31 16:47:56,622 new topwidget MainWindow
+2021-05-31 16:47:56,622 setting property geometry
+2021-05-31 16:47:56,622 push QMenuBar menubar
+2021-05-31 16:47:56,622 setting property title
+2021-05-31 16:47:56,622 push QMenu menuFile
+2021-05-31 16:47:56,622 pop widget QMenu menuFile
+2021-05-31 16:47:56,622 new topwidget self.menubar
+2021-05-31 16:47:56,623 setting property title
+2021-05-31 16:47:56,623 push QMenu menubrowse
+2021-05-31 16:47:56,623 pop widget QMenu menubrowse
+2021-05-31 16:47:56,623 new topwidget self.menubar
+2021-05-31 16:47:56,623 pop widget QMenuBar menubar
+2021-05-31 16:47:56,623 new topwidget MainWindow
+2021-05-31 16:47:56,624 push QStatusBar statusbar
+2021-05-31 16:47:56,624 pop widget QStatusBar statusbar
+2021-05-31 16:47:56,624 new topwidget MainWindow
+2021-05-31 16:47:56,624 setting property text
+2021-05-31 16:47:56,624 setting property text
+2021-05-31 16:47:56,625 pop widget QMainWindow MainWindow
+2021-05-31 16:47:56,625 new topwidget None
+2021-05-31 16:47:56,625 add action actionNew_window to menuFile
+2021-05-31 16:47:56,625 add action actionLoad_song to menubrowse
+2021-05-31 16:47:56,625 add action menuFile to menubar
+2021-05-31 16:47:56,625 add action menubrowse to menubar
+2021-05-31 16:47:56,967 init
+2021-05-31 16:47:56,967 songs data base has been saved and it has 9 songs in it
+2021-05-31 16:47:57,931 adding song of id 0to the compare function
+2021-05-31 16:47:59,578 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/fatma/dsp_task4/data_base/Group22_Song4-music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 16:47:59,912 the song in uploaded with data
+2021-05-31 16:47:59,914 [    0.     0.     0. ...  1711. -2336.  2388.]
+2021-05-31 16:48:00,080 adding song of id 1to the compare function
+2021-05-31 16:48:01,483 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/fatma/dsp_task4/data_base/group16_song4_vocals.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 16:48:02,749 the song in uploaded with data
+2021-05-31 16:48:02,750 [    0.     0.     0. ...  -286. -1046.  -488.]
+2021-05-31 16:48:02,751 2 songs were added to the mixer
+2021-05-31 16:48:02,751 mixing 2 songs' data
+2021-05-31 16:48:03,050 extracting the similarity indexes
+2021-05-31 16:48:04,595 the song hashes=
+2021-05-31 16:48:04,595 ['a920c920ad21cd81adc9cd91ad61e9b0a922e9f2a962dbf6c96252f6c96656ff', 'c900c920cd00cd81ed89a111ab10ab049e4cd66e92feb23eb27fb27f32ff56df', 'ad21ad21ad29a92ba92ba96baa32aa18e858fa587ad852dc52dc52dd56d556d5', '8b738b73748c748c8b738b73748c748c8b738b73748c748c748c8b738b73748c']
+2021-05-31 16:48:04,595 get similarity index
+2021-05-31 16:48:04,596 similarity_indexes function is called
+2021-05-31 16:48:04,597 song of index 0 is compared
+2021-05-31 16:48:04,600 song of index 1 is compared
+2021-05-31 16:48:04,603 song of index 2 is compared
+2021-05-31 16:48:04,605 song of index 3 is compared
+2021-05-31 16:48:04,609 song of index 4 is compared
+2021-05-31 16:48:04,610 song of index 5 is compared
+2021-05-31 16:48:04,612 song of index 6 is compared
+2021-05-31 16:48:04,614 song of index 7 is compared
+2021-05-31 16:48:04,616 song of index 8 is compared
+2021-05-31 16:48:04,616 similarity function done successfully
+2021-05-31 16:48:11,310 mixing 2 songs' data
+2021-05-31 16:48:11,567 extracting the similarity indexes
+2021-05-31 16:48:12,690 the song hashes=
+2021-05-31 16:48:12,690 ['f85c2acdf87c2a4df87c284da87c284d8b6c686f8b6c686e83ec686687e86d62', 'aa1ca84ccb4ceb6cee6ccb58907eb4fdb4b5b4b1b4b113930793478347834783', 'f87cf87cf87ce86caa6c8a6c8a6c824dd05d105f551705975597178357835783', 'cbf4cbf4340b340bcbf4cbf4340b340bcbf4cbf4340b340b340bcbf4cbf4340b']
+2021-05-31 16:48:12,690 get similarity index
+2021-05-31 16:48:12,690 similarity_indexes function is called
+2021-05-31 16:48:12,693 song of index 0 is compared
+2021-05-31 16:48:12,695 song of index 1 is compared
+2021-05-31 16:48:12,697 song of index 2 is compared
+2021-05-31 16:48:12,700 song of index 3 is compared
+2021-05-31 16:48:12,701 song of index 4 is compared
+2021-05-31 16:48:12,703 song of index 5 is compared
+2021-05-31 16:48:12,705 song of index 6 is compared
+2021-05-31 16:48:12,706 song of index 7 is compared
+2021-05-31 16:48:12,708 song of index 8 is compared
+2021-05-31 16:48:12,708 similarity function done successfully
+2021-05-31 16:48:15,179 mixing 2 songs' data
+2021-05-31 16:48:15,405 extracting the similarity indexes
+2021-05-31 16:48:16,594 the song hashes=
+2021-05-31 16:48:16,597 ['f87c8909f87ca989f87ca989f87c290ba96c290b896c794b896c796381ec7d72', 'ca5ce848ca49ce49cc49ea48b13eb93494b4f4b6b4b693a323a333bf17e346c3', 'f87cf87cf86ce86ce86ca86ca86c886dd05d505f541f15975593178357831783', '8bfc8bfc740374038bfc8bfc740374038bfc8bfc7403740374038bfc8bfc7403']
+2021-05-31 16:48:16,597 get similarity index
+2021-05-31 16:48:16,597 similarity_indexes function is called
+2021-05-31 16:48:16,599 song of index 0 is compared
+2021-05-31 16:48:16,601 song of index 1 is compared
+2021-05-31 16:48:16,603 song of index 2 is compared
+2021-05-31 16:48:16,605 song of index 3 is compared
+2021-05-31 16:48:16,606 song of index 4 is compared
+2021-05-31 16:48:16,608 song of index 5 is compared
+2021-05-31 16:48:16,610 song of index 6 is compared
+2021-05-31 16:48:16,612 song of index 7 is compared
+2021-05-31 16:48:16,614 song of index 8 is compared
+2021-05-31 16:48:16,614 similarity function done successfully
+2021-05-31 16:48:17,713 mixing 2 songs' data
+2021-05-31 16:48:17,952 extracting the similarity indexes
+2021-05-31 16:48:19,202 the song hashes=
+2021-05-31 16:48:19,202 ['e92c8921e82c8989ec4c8d89e87ca98ba96ea923a96e59d3c96c5ad7896c5ed7', 'c818c848c849ccd9c4d9a959a939a9248ca4d4b694b69ba633a3333f33ff56df', 'a92ca92ca92ca96ca96ca96ca87ca87cf85cf8595ad952d952d3569356935693', '8bfc8bfc740374038bfc8bfc740374038bfc8bfc7403740374038bfc8bfc7403']
+2021-05-31 16:48:19,202 get similarity index
+2021-05-31 16:48:19,202 similarity_indexes function is called
+2021-05-31 16:48:19,205 song of index 0 is compared
+2021-05-31 16:48:19,206 song of index 1 is compared
+2021-05-31 16:48:19,208 song of index 2 is compared
+2021-05-31 16:48:19,211 song of index 3 is compared
+2021-05-31 16:48:19,212 song of index 4 is compared
+2021-05-31 16:48:19,214 song of index 5 is compared
+2021-05-31 16:48:19,216 song of index 6 is compared
+2021-05-31 16:48:19,218 song of index 7 is compared
+2021-05-31 16:48:19,220 song of index 8 is compared
+2021-05-31 16:48:19,220 similarity function done successfully
+2021-05-31 16:49:03,477 mixing 2 songs' data
+2021-05-31 16:49:03,730 extracting the similarity indexes
+2021-05-31 16:49:04,914 the song hashes=
+2021-05-31 16:49:04,915 ['f85c2acdf87c2a4df87c284da87c284d8b6c686f8b6c686e83ec686687e86d62', 'aa1ca84ccb4ceb6cee6ccb58907eb4fdb4b5b4b1b4b113930793478347834783', 'f87cf87cf87ce86caa6c8a6c8a6c824dd05d105f551705975597178357835783', 'cbf4cbf4340b340bcbf4cbf4340b340bcbf4cbf4340b340b340bcbf4cbf4340b']
+2021-05-31 16:49:04,915 get similarity index
+2021-05-31 16:49:04,915 similarity_indexes function is called
+2021-05-31 16:49:04,916 song of index 0 is compared
+2021-05-31 16:49:04,918 song of index 1 is compared
+2021-05-31 16:49:04,920 song of index 2 is compared
+2021-05-31 16:49:04,923 song of index 3 is compared
+2021-05-31 16:49:04,925 song of index 4 is compared
+2021-05-31 16:49:04,926 song of index 5 is compared
+2021-05-31 16:49:04,927 song of index 6 is compared
+2021-05-31 16:49:04,928 song of index 7 is compared
+2021-05-31 16:49:04,929 song of index 8 is compared
+2021-05-31 16:49:04,929 similarity function done successfully
+2021-05-31 16:49:07,715 mixing 2 songs' data
+2021-05-31 16:49:07,967 extracting the similarity indexes
+2021-05-31 16:49:09,162 the song hashes=
+2021-05-31 16:49:09,162 ['a920c920ad21cd81adc9cd91ad61e9b0a922e9f2a962dbf6c96252f6c96656ff', 'c900c920cd00cd81ed89a111ab10ab049e4cd66e92feb23eb27fb27f32ff56df', 'ad21ad21ad29a92ba92ba96baa32aa18e858fa587ad852dc52dc52dd56d556d5', '8b738b73748c748c8b738b73748c748c8b738b73748c748c748c8b738b73748c']
+2021-05-31 16:49:09,166 get similarity index
+2021-05-31 16:49:09,166 similarity_indexes function is called
+2021-05-31 16:49:09,168 song of index 0 is compared
+2021-05-31 16:49:09,170 song of index 1 is compared
+2021-05-31 16:49:09,172 song of index 2 is compared
+2021-05-31 16:49:09,173 song of index 3 is compared
+2021-05-31 16:49:09,175 song of index 4 is compared
+2021-05-31 16:49:09,177 song of index 5 is compared
+2021-05-31 16:49:09,179 song of index 6 is compared
+2021-05-31 16:49:09,180 song of index 7 is compared
+2021-05-31 16:49:09,182 song of index 8 is compared
+2021-05-31 16:49:09,182 similarity function done successfully
+2021-05-31 16:49:12,181 mixing 2 songs' data
+2021-05-31 16:49:12,404 extracting the similarity indexes
+2021-05-31 16:49:13,596 the song hashes=
+2021-05-31 16:49:13,597 ['e92c8921e928c981ec49cd89e96ca993a96ea923a96e59d3c86c5ad7c96c56d7', 'c818c848c849c4d9e4d9a159a939ab248ca4d4b694a69ba6b3a6333f33ff56df', 'a929a929a929a92da96ea96aa87aa878a858fa587ad952d952d956d356d55695', '8ffc96da700374038ffc8ffc700370038ffc8ffc7403700370038ffc8ffc7003']
+2021-05-31 16:49:13,597 get similarity index
+2021-05-31 16:49:13,597 similarity_indexes function is called
+2021-05-31 16:49:13,598 song of index 0 is compared
+2021-05-31 16:49:13,600 song of index 1 is compared
+2021-05-31 16:49:13,602 song of index 2 is compared
+2021-05-31 16:49:13,604 song of index 3 is compared
+2021-05-31 16:49:13,605 song of index 4 is compared
+2021-05-31 16:49:13,607 song of index 5 is compared
+2021-05-31 16:49:13,609 song of index 6 is compared
+2021-05-31 16:49:13,610 song of index 7 is compared
+2021-05-31 16:49:13,612 song of index 8 is compared
+2021-05-31 16:49:13,612 similarity function done successfully
+2021-05-31 16:49:14,279 mixing 2 songs' data
+2021-05-31 16:49:14,505 extracting the similarity indexes
+2021-05-31 16:49:15,685 the song hashes=
+2021-05-31 16:49:15,686 ['f82c8921f82c8989e85ca989e87ca98ba96ea923a96e59d3896c5ad7896c5ed7', 'c858c848ca49ccc9c4d9a959a93da9248c84d4b694b693a633a3333f33ff56df', 'e92ce92ca96ca96ca96ca96ca86ca87cf85cf85d525d52d35293569356935683', '8bfc96da740374038bfc8bfc740374038ffc8bfc7403740374038bfc8bfc7403']
+2021-05-31 16:49:15,686 get similarity index
+2021-05-31 16:49:15,686 similarity_indexes function is called
+2021-05-31 16:49:15,688 song of index 0 is compared
+2021-05-31 16:49:15,689 song of index 1 is compared
+2021-05-31 16:49:15,693 song of index 2 is compared
+2021-05-31 16:49:15,695 song of index 3 is compared
+2021-05-31 16:49:15,697 song of index 4 is compared
+2021-05-31 16:49:15,699 song of index 5 is compared
+2021-05-31 16:49:15,700 song of index 6 is compared
+2021-05-31 16:49:15,702 song of index 7 is compared
+2021-05-31 16:49:15,704 song of index 8 is compared
+2021-05-31 16:49:15,704 similarity function done successfully
+2021-05-31 16:49:16,547 mixing 2 songs' data
+2021-05-31 16:49:16,783 extracting the similarity indexes
+2021-05-31 16:49:18,032 the song hashes=
+2021-05-31 16:49:18,032 ['f85c2acdf87c2a4df87c284db87c284d8b6c286f8b6c686e8bec686683e86d62', 'ea1ca84ccb4ceb68ea6ccb58b07cb4bdb4b4b4b1b4b393b30783478b47834783', 'f87cf87cf87ce86caa6c8a6c8a6c806dd05d105f551705975597178357835783', 'cbf4cbf4340b340bcbf4cbf4340b340bcbf4cbf4340b340b340bcbf4cbf4340b']
+2021-05-31 16:49:18,032 get similarity index
+2021-05-31 16:49:18,032 similarity_indexes function is called
+2021-05-31 16:49:18,034 song of index 0 is compared
+2021-05-31 16:49:18,036 song of index 1 is compared
+2021-05-31 16:49:18,038 song of index 2 is compared
+2021-05-31 16:49:18,040 song of index 3 is compared
+2021-05-31 16:49:18,042 song of index 4 is compared
+2021-05-31 16:49:18,044 song of index 5 is compared
+2021-05-31 16:49:18,046 song of index 6 is compared
+2021-05-31 16:49:18,048 song of index 7 is compared
+2021-05-31 16:49:18,050 song of index 8 is compared
+2021-05-31 16:49:18,050 similarity function done successfully
+2021-05-31 16:49:19,446 mixing 2 songs' data
+2021-05-31 16:49:19,704 extracting the similarity indexes
+2021-05-31 16:49:20,899 the song hashes=
+2021-05-31 16:49:20,899 ['f85c2acdf87c2a4df87c284da87c284d8b6c686f8b6c686e83ec686687e86d62', 'aa1ca84ccb4ceb6cee6ccb58907eb4fdb4b5b4b1b4b113930793478347834783', 'f87cf87cf87ce86caa6c8a6c8a6c824dd05d105f551705975597178357835783', 'cbf4cbf4340b340bcbf4cbf4340b340bcbf4cbf4340b340b340bcbf4cbf4340b']
+2021-05-31 16:49:20,899 get similarity index
+2021-05-31 16:49:20,899 similarity_indexes function is called
+2021-05-31 16:49:20,901 song of index 0 is compared
+2021-05-31 16:49:20,902 song of index 1 is compared
+2021-05-31 16:49:20,905 song of index 2 is compared
+2021-05-31 16:49:20,906 song of index 3 is compared
+2021-05-31 16:49:20,908 song of index 4 is compared
+2021-05-31 16:49:20,910 song of index 5 is compared
+2021-05-31 16:49:20,912 song of index 6 is compared
+2021-05-31 16:49:20,914 song of index 7 is compared
+2021-05-31 16:49:20,915 song of index 8 is compared
+2021-05-31 16:49:20,915 similarity function done successfully

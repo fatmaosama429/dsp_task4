@@ -42,7 +42,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/Eighth-Note-Double.webp</normaloff>../Downloads/Eighth-Note-Double.webp</iconset>
+      <normaloff>Eighth-Note-Double.webp</normaloff>Eighth-Note-Double.webp</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -65,7 +65,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/Eighth-Note-Double.webp</normaloff>../Downloads/Eighth-Note-Double.webp</iconset>
+      <normaloff>Eighth-Note-Double.webp</normaloff>Eighth-Note-Double.webp</iconset>
     </property>
     <property name="iconSize">
      <size>

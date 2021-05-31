@@ -19,7 +19,7 @@ def getHammingDistance(hash1: str, hash2: str, index : int) -> int:
         return hex_to_hash(hash1) - hex_to_hash(hash2)
     except:
         logger.info(str(index+3)+" is bad")
-        return 255
+        return 50
     # return hex_to_hash(hash1) - hex_to_hash(hash2)
 
   

@@ -34,7 +34,7 @@ class MainApp(QtWidgets.QMainWindow,From_Main):
     def __init__(self):
         super(MainApp, self).__init__()
         self.setupUi(self)
-        music= pd.read_excel('/home/fatma/dsp_task4/songsDataBase6.xlsx')
+        music= pd.read_excel('/home/fatma/dsp_task4/songsDataBase7.xlsx')
         self.songnames=music["song"].tolist()
         self.DataBase_songs = music[:].values  
         logger.info("init")
@@ -58,12 +58,15 @@ class MainApp(QtWidgets.QMainWindow,From_Main):
         load_file = QtWidgets.QFileDialog.getOpenFileName(None, "Load Audio File %s",filter="*.mp3")
         path=load_file[0]
         audiofile = AudioSegment.from_mp3(path)[:60000] 
-        data = np.array(audiofile.get_array_of_samples())
+        data = np.array(audiofile.get_array_of_samples()).astype(np.float16)
         rate = audiofile.frame_rate
+        # rate= 44100
+        # data= dataa[:500000]
         # print(self.data)
         logger.info("the song in uploaded with data")
         logger.info(str(data))
         # print("data=",data,"rate",rate)
+        print(np.size(data))
         return data,rate
     
     def compare_1song(self):
@@ -130,14 +133,24 @@ class MainApp(QtWidgets.QMainWindow,From_Main):
         return self.all_similarity_index
         
     def get_table(self,similarity_list):
-        # self.resultsTable.show()
+        self.resultsTable.clear()
+        self.musics=[]
+        self.sortedMusics=[]     
+        for i in range(0,len(self.songnames)):
+                self.musics.append([similarity_list[i],self.songnames[i]])
+        
+        self.sortedMusics= sorted(self.musics, reverse=True)
+
+
         self.resultsTable.setColumnCount(2)
         self.resultsTable.setRowCount(len(similarity_list))
         for row in range(len(similarity_list)):
-            self.resultsTable.setItem(row, 1, QtWidgets.QTableWidgetItem( self.songnames[row] )  )
-            self.resultsTable.setItem(row, 0, QtWidgets.QTableWidgetItem(str(round(similarity_list[row], 2))+"%"))
+            self.resultsTable.setItem(row, 1, QtWidgets.QTableWidgetItem(self.sortedMusics[row][1] ))
+            self.resultsTable.setItem(row, 0, QtWidgets.QTableWidgetItem(str(round(self.sortedMusics[row][0], 2))+"%"))
      
-            self.resultsTable.verticalHeader().setSectionResizeMode(row, QtWidgets.QHeaderView.Stretch)
+            # self.resultsTable.verticalHeader().setSectionResizeMode(row, QtWidgets.QHeaderView.Stretch)
+        for col in range(2):
+            self.resultsTable.horizontalHeader().setSectionResizeMode(col, QtWidgets.QHeaderView.Stretch)
 
         self.resultsTable.setHorizontalHeaderLabels([ "similarity percentage","song names"])
         self.resultsTable.show()
