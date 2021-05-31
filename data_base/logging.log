@@ -1,0 +1,41 @@
+2021-05-31 15:58:07,818 filegroup16_song1_vocals.mp3
+2021-05-31 15:58:07,921 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song1_vocals.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:10,283 uploaded
+2021-05-31 15:58:10,283 fileg12.mpga
+2021-05-31 15:58:10,283 uploaded
+2021-05-31 15:58:10,285 filegroup16_song4_vocals.mp3
+2021-05-31 15:58:10,432 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song4_vocals.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:13,484 uploaded
+2021-05-31 15:58:13,484 filesongsDataBase7.xlsx
+2021-05-31 15:58:13,484 uploaded
+2021-05-31 15:58:13,484 fileGroup22_Song4-music.mp3
+2021-05-31 15:58:13,579 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'Group22_Song4-music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:15,147 uploaded
+2021-05-31 15:58:15,147 filelogging.log
+2021-05-31 15:58:15,147 uploaded
+2021-05-31 15:58:15,147 filegroup16_song2_vocals.mp3
+2021-05-31 15:58:15,244 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song2_vocals.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:17,304 uploaded
+2021-05-31 15:58:17,306 filegroup16_song2_music.mp3
+2021-05-31 15:58:17,404 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song2_music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:19,946 uploaded
+2021-05-31 15:58:19,946 filesongsDataBase7.csv
+2021-05-31 15:58:19,948 uploaded
+2021-05-31 15:58:19,948 filegroup16_song3_music.mp3
+2021-05-31 15:58:20,066 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song3_music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:22,588 uploaded
+2021-05-31 15:58:22,588 filegroup16_song1_music.mp3
+2021-05-31 15:58:22,686 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song1_music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:25,151 uploaded
+2021-05-31 15:58:25,152 filecreateDateBase.py
+2021-05-31 15:58:25,152 uploaded
+2021-05-31 15:58:25,152 filesongsDataBase6.csv
+2021-05-31 15:58:25,152 uploaded
+2021-05-31 15:58:25,152 filesongsDataBase_mo7ip.csv
+2021-05-31 15:58:25,152 uploaded
+2021-05-31 15:58:25,152 filegroup16_song4_music.mp3
+2021-05-31 15:58:25,239 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song4_music.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:27,545 uploaded
+2021-05-31 15:58:27,546 filegroup16_song3_vocals.mp3
+2021-05-31 15:58:27,630 subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'group16_song3_vocals.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2021-05-31 15:58:29,687 uploaded

@@ -40,15 +40,15 @@ for filename in os.listdir():
         mp3_audio = AudioSegment.from_file((filename), format="mp3")[:60000]  # read mp3
         wavsong = np.array(mp3_audio.get_array_of_samples()).astype(np.float16)
         samplingFrequency = mp3_audio.frame_rate
-
-        # print(wavsong)
+        # wavsong=wavsong[:5000000]
+        
 
         sampleFreqs,sampleTime, colorMesh =signal.spectrogram(wavsong,fs=samplingFrequency)
 
         feature1= librosa.feature.mfcc(y=wavsong, sr=samplingFrequency)
         feature2= librosa.feature.melspectrogram(y=wavsong, sr=samplingFrequency,S=colorMesh)
         feature3= librosa.feature.chroma_stft(y=wavsong, sr=samplingFrequency,S=colorMesh)
-        # lib.feature.melspectrogram(y=data,sr=rate,S=color)
+        
 
         spect_image=Image.fromarray(colorMesh)
         new_image = Image.fromarray(feature1)
@@ -69,7 +69,7 @@ for filename in os.listdir():
     logger.info("uploaded")
 
 
-
+ 
 
 dict = {'song': Song, 'spectrogram hash':spect_hash_list,\
     'mfcc hash': mfccHashList,'mel spectrogram hash':melSpectroHashList,\
@@ -78,4 +78,4 @@ dict = {'song': Song, 'spectrogram hash':spect_hash_list,\
 
 df = pd.DataFrame(dict)
 print(df.head)
-df.to_csv('songsDataBase6.csv',index=False)
+df.to_csv('songsDataBase7.csv',index=False)
